@@ -1,0 +1,345 @@
+*{
+    padding:0;
+    margin: 0;
+    color: #f9f9f9;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: rgba(14, 55, 58, 0.596);
+    display: flex;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    width : 48px;
+    height: 10000px;
+    padding: 20px;
+    overflow: hidden;
+
+    
+}
+.menu:hover{
+    width: 600px;
+    transition: .5s;
+}
+ul {
+    list-style: none;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+    gap: 40px;
+    transition: .5s;
+
+}
+ul li a:hover{
+    background-color: #333;
+
+
+}
+ul li a i {
+    color: #ffffff;
+    font-size: 20px;
+}
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: #f9f9f9 3px solid;
+    flex-shrink: 0;
+}
+
+.img-box img{
+    width: 100%;
+}
+.profil{
+    display:flex;
+    align-items: center;
+    gap: 30px;
+}
+.profil h2{
+    font-size: 17px;
+}
+.content{
+    
+    width: 100%;
+    margin: 10px;
+}
+.tirle-info{
+    background-color: rgba(13, 185, 197, 0.596);
+    padding: 10px ;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.tirle-info1{
+    background-color:rgba(13, 185, 197, 0.596);
+    padding: 10px ;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.profil-text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.Information .img-box1{
+    width: 20%;
+    height: 50%;
+    overflow: hidden;
+    border: #f9f9f9 2px solid;
+    flex-shrink: 0;
+    margin: 10px 10px;
+}
+.img-box1 img{
+    width: 100%;
+}
+
+.profil1 {
+    border: #ffffff 3px solid;
+    display:flex;
+    gap: 30px
+}
+.profil-text h1{
+    color: #000000;
+}
+.profil-text h3{
+    color: #42403f;
+    margin-left: 30px;
+}
+.profil-text  p{
+    font-size: 30 px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-left: 30px;
+
+}
+.Profil3 p {
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 25px 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.Information1{
+    width: 98%;
+    height: 50%;
+    overflow: hidden;
+    border: #f9f9f9 2px solid;
+    flex-shrink: 0;
+    margin: 10px 10px;
+}
+.profil-text1  p{
+    font-size: 30 px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-left: 30px;
+
+}
+.profil-text1 h3 a:hover{
+    background-color: #000000;
+    padding-right: 80px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.profil-text1 h3 a{
+    padding-right: 80px;
+    text-decoration: none;
+    position:20% ;
+}
+.profil-text1  li{
+    padding-left: 80px;
+    text-decoration: none;
+    position:20% ;
+    
+}
+.profil-text1 h3 {
+    color: #030303 ;
+    margin: 2%;
+}
+.profil-text1 p{
+    font-weight: 600;
+}
+.profil-text2{
+    width: 98%;
+    height: 1400px;
+    overflow: hidden;
+    border: #f9f9f9 2px solid;
+    margin: 10px 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.A1:hover{
+    background-color: #000000;
+    padding-right: 80px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline;
+}
+.profil-text2{
+    padding-left: 20px;
+}
+.profil-text2 h2{
+    color: #030303;
+    
+}
+.profil-text2 h4{
+    color: #472509;
+}
+.profil-text2 p {
+    padding-left: 20px;
+}
+.profil-text2 a{
+
+    padding-right: 80px;
+    text-decoration: none;
+    position:20% ;
+}
+.profil-text2 img {
+    width: 120px;
+    height: 120px;
+    border: #f9f9f9 2px solid;
+    margin: 10px 10px;
+    border-radius: 50%;
+    
+
+}
+.profil-text2 img:hover {
+    width: 150px;
+    height: 150px;
+    
+    
+
+}
+.profil-text3{
+    width: 98%;
+    height: 700px;
+    overflow: hidden;
+    border: #f9f9f9 2px solid;
+    margin: 10px 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.profil-text3 h2{
+    color: #030303;
+}
+.profil-text3 h4{
+    color: #86684e;
+}
+.profil-text3 p{
+   padding-left: 40px;
+}
+.profil-text3  .A1 li{
+    padding-left: 50px;
+}
+.profil-text3  .A1 p li h3{
+    line-height: 50px;
+}
+.profil-text3  .A1 a{
+    background-color: #472509;
+    padding-right: 80px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+iframe{
+    padding-top:40px ;
+    padding-left: 200px;
+    border-radius: 30px;
+}
+.profil-text4{
+    width: 98%;
+    height: 500px;
+    overflow: hidden;
+    border: #f9f9f9 2px solid;
+    margin: 10px 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.profil-text4 h2 {
+    color: #000000;
+
+}
+.profil-text4 li{
+    padding-left: 50px;
+    line-height: 40px;
+}
+.Information5{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Information5 .linkdin{
+    
+    height: 15%;
+    width: 15%;
+    flex-basis: 15%;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.Information5 .Fecbook{
+    
+    height: 15%;
+    width: 15%;
+    flex-basis: 15%;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Information5 .Wathsap{
+    
+    height: 15%;
+    width: 15%;
+    flex-basis: 15%;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.Information5 .Instagrm{
+    
+    height: 15%;
+    width: 15%;
+    flex-basis: 15%;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Information5 p{
+    padding-left: 70px;
+}
+.Information5 img{
+    border-radius: 50%;
+    border: #207783 3px solid;
+    
+}
+.Information5 img:hover{
+    width: 300px;
+    height: 300px;
+    transition: .5s;
+    
+}
